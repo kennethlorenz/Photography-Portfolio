@@ -1,0 +1,185 @@
+html, body{
+    height: 100%;
+}
+
+#allPage{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    text-align: center;
+    min-height: 100%;
+    /*border: 1px solid #000;*/
+}
+td{
+    
+    color: gray;
+    /*border: 1px solid #000;*/
+}
+   
+
+table {    
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+table #images, tr.spaceUnder>td {
+    padding-bottom: 5em;
+}
+
+table #images, tr.spaceUnder2>td {
+    padding-bottom: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:grey;
+}
+
+a:hover{ 
+    color: black;
+}
+
+tr{
+    border-spacing: 150px;
+}
+#images{
+    border-spacing: 15px;
+}
+h2
+{
+    font-size: 300%;
+}
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#landscape
+{
+    margin-left: -75px;
+    max-width: 140%;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .block {
+    width: 100px;
+    display: inline-block;
+    padding-bottom: 2em;
+  }
+
+.aboutmeimage{
+    width: 750px;
+}
+
+p{
+    text-align: left;
+    color: gray;
+    font-size: small;
+}
+.text-center
+{
+    text-align: center;
+}
+
+
+/*Footer section*/
+.footer
+{
+    background: white;
+    color:#686868;
+    height: 180px;
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-content{
+    height: 150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer .footer-bottom
+{
+    background: white;
+    color: #686868;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    font-size: small;
+}
+
+.footer-section
+{
+    width: 300px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.buttons
+{
+    padding:0px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.buttons:hover
+{
+    opacity: 0.7;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: black;
+  }
+
+
+  @media screen and (max-width: 979px)
+  {
+      #allPage
+      {
+          width: 100%;
+      }
+      table
+      {
+          width: 80%;
+      }
+      .row
+      {
+          width:70%;
+      }
+      #myBtn
+      {
+          bottom: 10px;
+          right: 2px;
+      }
+  }
+
