@@ -32,7 +32,7 @@ h2 {
 }
 
 #images div {
-  margin-bottom: 55px;
+  margin-bottom: 100px;
 }
 
 #images .image img {
@@ -42,7 +42,7 @@ h2 {
 #images .landscape {
   max-width: 750px;
   margin: auto;
-  margin-bottom: 55px;
+  margin-bottom: 100px;
 }
 
 a {
