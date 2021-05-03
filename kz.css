@@ -21,20 +21,28 @@ h2 a.header {
   color: black;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
+h2 {
+  font-size: 300%;
+}
+
+/* images section */
+
+#images {
+  margin-top: 25px;
+}
+
+#images div {
+  margin-bottom: 55px;
+}
+
+#images .image img {
   width: 500px;
 }
 
-table #images,
-tr.spaceUnder > td {
-  padding-bottom: 5em;
-}
-
-table #images,
-tr.spaceUnder2 > td {
-  padding-bottom: 2em;
+#images .landscape {
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 55px;
 }
 
 a {
@@ -49,24 +57,8 @@ a:hover {
   color: black;
 }
 
-tr {
-  border-spacing: 150px;
-}
-#images {
-  border-spacing: 15px;
-}
-h2 {
-  font-size: 300%;
-}
 img {
-  margin-left: auto;
-  margin-right: auto;
   max-width: 100%;
-}
-
-#landscape {
-  margin-left: -75px;
-  max-width: 140%;
 }
 
 .row {
@@ -160,11 +152,9 @@ p {
   #allPage {
     width: 100%;
   }
-  table {
-    width: 80%;
-  }
+
   .row {
-    width: 70%;
+    width: 50%;
   }
   #myBtn {
     bottom: 10px;
