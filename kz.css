@@ -170,6 +170,20 @@ p {
   .row {
     width: 50%;
   }
+
+  video {
+    width: 520px;
+  }
+
+  iframe {
+    width: 520px;
+    height: 300px;
+  }
+
+  .film-item.reel-size video {
+    width: 200px;
+  }
+
   #myBtn {
     bottom: 10px;
     right: 2px;
