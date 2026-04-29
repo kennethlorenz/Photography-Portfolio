@@ -167,17 +167,21 @@ p {
     width: 100%;
   }
 
+  .header {
+    font-size: 2rem;
+  }
+
   .row {
-    width: 50%;
+    display: flex;
   }
 
   video {
-    width: 520px;
+    width: 350px;
   }
 
   iframe {
-    width: 520px;
-    height: 300px;
+    width: 350px;
+    height: 220px;
   }
 
   .film-item.reel-size video {
