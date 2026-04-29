@@ -124,8 +124,22 @@ p {
   text-decoration: none;
 }
 
+.buttons:nth-child(1) {
+  width: 30px;
+}
+
 .buttons:hover {
   opacity: 0.7;
+}
+
+/* film section */
+
+.film-item {
+  margin-bottom: 5rem;
+}
+
+.film-item .film-title {
+  text-align: center;
 }
 
 #myBtn {
